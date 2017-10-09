@@ -1,0 +1,50 @@
+// Write your custom variables here
+// --------------------------------
+// custom colors
+$color-primary: #36c842;
+// $color-primary: #69bd45;
+$color-secondary: #fdae15;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-error: #d34a56;
+
+$color-background: rgb(250, 250, 250);
+$color-lightGrey: rgb(250, 250, 250);
+$color-darkGrey: rgb(85, 85, 85);
+$color-text: #5e5e5e;
+$color-textMuted: #a0a0a0;
+$color-textDark: #303030;
+// $color-border: #e6eaee;
+$color-border: #e6e6e6;
+$color-borderLight: rgb(239, 239, 239);
+$color-lightPrimary: #ddf6df;
+
+// specific colors
+$color-label: #b4bbc6;
+$color-h1: $color-textDark;
+$color-h2: $color-textMuted;
+$color-p: $color-text;
+
+// shadows
+$box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 4px 0px;
+
+// pixels
+$spacing: 6px;
+$gutter: $spacing * 4;
+$border-radius: 3px;
+$sidebar-width: 300px;
+
+// specifics
+$nav-height: 27px + $spacing * 6;
+
+// fonts
+// $font-family-base: 'Open Sans', Helvetica, Arial, sans-serif !default;
+$font-family-base: 'Source Sans', Helvetica, Arial, sans-serif !default;
+// $font-family-lato: 'Lato', Helvetica, Arial, sans-serif !default;
+$font-size-base: 16px !default;
+// $line-height-base: 1.6 !default;
+$line-height-base: 1.5 !default;
+$fa-font-path: '../fonts/font-awesome';
+
+// links
+$link-color: $color-primary;

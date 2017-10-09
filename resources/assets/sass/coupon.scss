@@ -1,0 +1,74 @@
+// global
+@import "coupon/variables";
+@import "coupon/reset";
+@import "coupon/bootstrap-grid";
+
+#incentives-purchase-show {
+	padding: $spacing * 4;
+	font-family: 'Source Sans', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+
+	strong {
+		font-weight: 700;
+	}
+
+	.container {
+		max-width: $container-sm;
+		color: $color-text;
+	}
+
+	header {
+		font-size: 24px;
+		height: 36px;
+		line-height: 36px;
+		text-align: right;
+
+		img {
+			display: block;
+			float: left;
+		}
+	}
+
+	.title {
+		border-top: 3px solid $color-text;
+		margin-top: $spacing * 4;
+		padding-top: $spacing * 4;
+		font-size: 16px;
+
+		h1 {
+			font-size: 24px;
+		}
+	}
+
+	.information {
+		margin-top: $spacing * 4;
+		font-size: 16px;
+
+		.image {
+			width: 50%;
+			padding-bottom: 0.5 * 56.25%;
+			background-color: $color-lightGrey;
+			background-position: center center;
+			background-size: cover;
+			float: left;
+			margin-right: $spacing * 4;
+		}
+	}
+
+	.description {
+		border-top: 3px solid $color-text;
+		margin-top: $spacing * 4;
+		padding-top: $spacing * 4;
+	}
+
+	.terms {
+		p {
+			font-size: 10px;
+		}
+	}
+
+	section + section {
+		margin-top: $spacing * 4;
+	}
+}

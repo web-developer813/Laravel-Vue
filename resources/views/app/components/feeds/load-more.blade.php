@@ -1,0 +1,1 @@
+<a class="btn btn-block btn-default" @click="loadMore" role="button" v-show="nextPageUrl && !loading">Show more</a>

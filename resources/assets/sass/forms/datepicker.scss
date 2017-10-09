@@ -1,0 +1,51 @@
+.datepicker {
+	width: 70%;
+	
+	.datepicker-label {
+		height: 42px;
+		line-height: 42px;
+		border: 1px solid $color-border;
+		border-radius: $border-radius;
+		display: inline-block;
+		outline: none !important;
+		vertical-align: middle;
+		width: 100%;
+		padding: 0px $spacing * 2;
+		background: $color-white;
+		cursor: pointer;
+		color: $color-textMuted;
+		padding-right: 42px;
+		position: relative;
+
+		.startDateLabel, .endDateLabel {
+			color: $color-black;
+
+			&:hover {
+				color: $color-primary;
+			}
+		}
+
+		.calendar-icon {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			width: 42px;
+			text-align: center;
+			background: $color-lightGrey;
+			border-top-right-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
+			border-left: 1px solid $color-border;
+		}
+	}
+}
+
+.daterangepicker {
+	input {
+		outline: none !important;
+	}
+
+	th {
+		font-weight: 700;
+	}
+}

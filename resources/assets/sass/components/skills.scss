@@ -1,0 +1,180 @@
+.header-skill {
+    line-height: 33px;
+}
+
+.skill-name {
+    display: block;
+    padding: 5px 10px;
+    background: #eee;
+    border-radius: 20px;
+    font-weight: bold;
+    max-width: calc(100% - 34px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.padding-right-skill {
+    padding-right: 40px;
+    width: calc(100% - 34px);
+}
+
+.quantity-endorser {
+    position: absolute;
+    top: 5px;
+    right: 55px;
+    min-width: 30px;
+    text-align: right;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.skill-endorsement {
+    display: block;
+    padding: 0px 5px;
+    float: left;
+    margin-left: 1px;
+}
+
+.item-skill-edit {
+    margin-bottom: 10px;
+    .md-delete {
+        font-size: 16px;
+    }
+    span.name-skill {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .move-icon {
+        float: right;
+        font-size: 17px;
+        cursor: move;
+    }
+}
+
+.endorsement-action {
+    border: 1px solid #0184bf;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    float: right;
+    color: #0184bf;
+    cursor: pointer;
+    font-weight: bold;
+    .md-check {
+        width: 9px;
+        font-weight: bold;
+    }
+}
+
+.endorsement-action:hover {
+    border: 2px solid #0184bf;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    margin: auto;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-header>div {
+    width: 100%;
+}
+
+.modal-header .close {
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-body {
+    margin: 0;
+    max-height: calc(100vh - 223px);
+    overflow: auto;
+    .media {
+        margin-bottom: 15px;
+    }
+}
+
+.modal-default-button {
+    float: right;
+}
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.modal-footer {
+    padding: 13px 20px 13px!important;
+    border-top: 1px solid #ccc!important;
+}
+
+.avatar-endorser {
+    width: 54px;
+    margin-right: 10px!important;
+}
+
+.title-mode-popup {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.more-skill-show {
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    .btn {
+        white-space: initial;
+    }
+}

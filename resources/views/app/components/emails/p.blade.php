@@ -1,0 +1,1 @@
+<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6em; font-weight: normal; margin: 0 0 15px; padding: 0;">{!! $content !!}</p>

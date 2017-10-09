@@ -1,0 +1,49 @@
+
+
+.site-footer {
+  height: $site-footer-height;
+  padding: $site-footer-vertical-padding $page-horizontal-padding;
+  background-color:  $site-footer-bg;
+  border-top: 1px solid $site-footer-divider-color;
+  position: relative;
+
+  @include clearfix();
+
+  &-legal {
+    float: left;
+  }
+
+  &-actions {
+    float: right;
+  }
+
+  &-right {
+    float: right;
+  }
+  
+  &:after {
+	  display: block;
+      clear: both;
+      content: ""
+  }
+
+  .scroll-to-top {
+    color: $text-color;
+
+    &, &:hover, &:active {
+      text-decoration: none;
+    }
+  }
+
+  @include media-breakpoint-down(xs) {
+    height: auto;
+  }
+
+  &-legal, &-right, &-actions {
+    @include media-breakpoint-down(xs) {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,100 @@
+// md +
+@media (max-width: $screen-sm-max) {
+    #body {
+        display: none;
+    }
+    #mobile-gate {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: $spacing * 4;
+        z-index: 1000;
+
+        em {
+            font-style: italic;
+        }
+    }
+}
+
+// md +
+@media (min-width: $screen-md-min) {
+    #mobile-gate {
+        display: none;
+    }
+}
+
+body {
+    padding-bottom: $nav-height;
+    background: $color-white;
+    font-family: 'Source Sans Pro', sans-serif !important;
+
+    // md +
+    @media (min-width: $screen-md-min) {
+        padding-top: $nav-height + $spacing * 10;
+        padding-bottom: $spacing * 10;
+        background: $color-background;
+    }
+}
+
+// titles
+h1 {
+    font-size: 32px;
+    line-height: normal;
+    color: $color-h1;
+    display: block;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: normal;
+    color: $color-h2;
+    display: block;
+}
+
+h3 {
+    color: $color-primary;
+    font-size: 18px;
+    margin-bottom: $spacing * 4;
+}
+
+h1 + p {
+    margin-top: 36px;
+}
+
+h1 + h2 {
+    margin-top: $spacing * 1.5;
+}
+
+h2 + a, h2 + p, h2 + form {
+    margin-top: $spacing * 4;
+
+}
+        
+p {
+    color: $color-p;
+    max-width: 635px;
+}
+
+p + p {
+	margin-top: $spacing * 2;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 44px;
+	font-weight: 700;
+	line-height: normal;
+    margin-bottom: $spacing * 8;
+}
+
+section + section {
+    margin-top: $spacing * 8;
+}

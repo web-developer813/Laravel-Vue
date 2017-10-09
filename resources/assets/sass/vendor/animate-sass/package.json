@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "animate-sass",
+        "scope": null,
+        "escapedName": "animate-sass",
+        "name": "animate-sass",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jaredloman/Sites/take-two"
+    ]
+  ],
+  "_from": "animate-sass@latest",
+  "_id": "animate-sass@0.6.6",
+  "_inCache": true,
+  "_location": "/animate-sass",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/animate-sass-0.6.6.tgz_1480692612816_0.7574610093142837"
+  },
+  "_npmUser": {
+    "name": "paul-roman",
+    "email": "paul.roman@epitech.eu"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "animate-sass",
+    "scope": null,
+    "escapedName": "animate-sass",
+    "name": "animate-sass",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/animate-sass/-/animate-sass-0.6.6.tgz",
+  "_shasum": "8a490dbbca452c1de063c7f083f9ffcdab882f0e",
+  "_shrinkwrap": null,
+  "_spec": "animate-sass",
+  "_where": "/Users/jaredloman/Sites/take-two",
+  "author": {
+    "name": "Tom Gillard",
+    "email": "tomgillar@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/tgdev/animate-sass/issues"
+  },
+  "dependencies": {},
+  "description": "animate-sass is a Sass version of Dan Eden's Animate.css.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8a490dbbca452c1de063c7f083f9ffcdab882f0e",
+    "tarball": "https://registry.npmjs.org/animate-sass/-/animate-sass-0.6.6.tgz"
+  },
+  "gitHead": "ba592397091984c7814057841e3338792171d2dc",
+  "homepage": "https://github.com/tgdev/animate-sass#readme",
+  "license": "MIT",
+  "main": "_animate.scss",
+  "maintainers": [
+    {
+      "name": "paul-roman",
+      "email": "paul.roman@epitech.eu"
+    }
+  ],
+  "name": "animate-sass",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgdev/animate-sass.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.6.6"
+}

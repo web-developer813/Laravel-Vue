@@ -1,0 +1,1 @@
+<div class="loader vertical-align-middle loader-circle" v-show="loading"></div>

@@ -1,0 +1,1 @@
+<a href="{{ route($route, $params) }}" class="filter__option {{ nav_active($route, 'strict', $params)}}">{{ $value }}</a>
